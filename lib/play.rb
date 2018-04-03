@@ -42,5 +42,7 @@ def play(board)
     turn(board)
   end
 end
+
 board = Array.new(9," ")
+display_board(board)
 play(board)
