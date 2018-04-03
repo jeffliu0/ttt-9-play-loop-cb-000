@@ -38,8 +38,8 @@ end
 # Define your play method below
 def play(board)
   counter = 0
-  until counter == 9 do
+  until counter == 8 do
     turn(board)
   end
-
+board = Array.new(9 )
 play(board)
