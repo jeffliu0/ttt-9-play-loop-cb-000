@@ -41,3 +41,5 @@ def play(board)
   until counter == 9 do
     turn(board)
   end
+
+play(board)
