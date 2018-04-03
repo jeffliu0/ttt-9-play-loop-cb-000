@@ -41,5 +41,5 @@ def play(board)
   until counter == 8 do
     turn(board)
   end
-board = Array.new(9 )
+board = Array.new(9," ")
 play(board)
